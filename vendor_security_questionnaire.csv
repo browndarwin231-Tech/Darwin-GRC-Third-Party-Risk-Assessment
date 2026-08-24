@@ -1,0 +1,21 @@
+Question ID,Security Domain,Question,Vendor Response,Status,Risk Level,Assessment Notes,Recommended Action
+VSQ-001,Identity and Access Management,Is multi-factor authentication enforced for all administrator accounts?,No,Gap,High,MFA is not consistently enforced for privileged accounts,Require MFA for all administrator accounts before approval
+VSQ-002,Identity and Access Management,Are user access rights reviewed on a recurring basis?,Yes,Implemented,Low,Recurring access reviews are performed,Continue documenting access review results
+VSQ-003,Encryption,Is customer data encrypted at rest?,Yes,Implemented,Low,Data at rest is encrypted,Maintain current encryption standards
+VSQ-004,Encryption,Is customer data encrypted in transit using secure protocols?,Yes,Implemented,Low,Data in transit is protected with encryption,Continue enforcing secure transport protocols
+VSQ-005,Incident Response,Does the vendor maintain a documented incident response plan?,Yes,Implemented,Low,A formal incident response plan exists,Review the plan annually
+VSQ-006,Incident Response,Is the incident response plan tested at least annually?,No,Gap,High,The plan exists but is not tested regularly,Conduct annual tabletop exercises and document results
+VSQ-007,Vulnerability Management,Are vulnerability scans performed regularly?,Yes,Implemented,Low,Recurring vulnerability scans are performed,Continue tracking remediation of identified vulnerabilities
+VSQ-008,Vulnerability Management,Are critical vulnerabilities remediated within defined timelines?,Partial,Partial,Medium,Remediation timelines are not consistently documented,Define severity-based remediation SLAs
+VSQ-009,Penetration Testing,Does the vendor perform independent penetration testing at least annually?,Partial,Partial,Medium,Testing occurs inconsistently,Perform annual independent penetration testing
+VSQ-010,Logging and Monitoring,Are security logs centrally collected and monitored?,Yes,Implemented,Low,Centralized logging is enabled,Continue monitoring critical systems
+VSQ-011,Logging and Monitoring,Are security logs retained for at least 12 months?,No,Gap,Medium,Current retention period is shorter than recommended,Increase security log retention to 12 months
+VSQ-012,Backup and Recovery,Are backups performed for critical systems and data?,Yes,Implemented,Low,Regular backups are performed,Continue monitoring backup success
+VSQ-013,Backup and Recovery,Are backup restoration tests performed quarterly?,No,Gap,Medium,Recovery testing is not performed consistently,Conduct quarterly restoration tests and document results
+VSQ-014,Security Awareness,Do employees complete recurring security awareness training?,Yes,Implemented,Low,Security awareness training is provided,Continue annual training
+VSQ-015,Security Awareness,Is security awareness training completion formally tracked?,Partial,Partial,Medium,Completion tracking is inconsistent,Implement centralized training completion tracking
+VSQ-016,Third-Party Risk Management,Are subcontractors evaluated for cybersecurity risk before access is granted?,No,Gap,High,No consistent subcontractor risk assessment process exists,Implement formal subcontractor security reviews
+VSQ-017,Third-Party Risk Management,Are subcontractor security reviews repeated periodically?,No,Gap,High,Recurring reassessments are not performed,Perform annual reassessments of high-risk subcontractors
+VSQ-018,Data Protection,Does the vendor maintain documented data retention and disposal procedures?,Yes,Implemented,Low,Data retention procedures exist,Review procedures annually
+VSQ-019,Business Continuity,Does the vendor maintain a documented business continuity and disaster recovery plan?,Yes,Implemented,Low,BCP and DR documentation exists,Test plans regularly
+VSQ-020,Business Continuity,Are business continuity or disaster recovery exercises conducted regularly?,Partial,Partial,Medium,Exercises are not performed on a consistent schedule,Conduct annual BCP and DR exercises
