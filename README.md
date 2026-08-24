@@ -133,6 +133,16 @@ Darwin-GRC-Third-Party-Risk-Assessment/
 ├── vendor_remediation_plan.md
 └── evidence/
 
+## Evidence Screenshots
+
+### Vendor Security Questionnaire
+![Vendor Security Questionnaire](evidence/vendor-security-questionnaire.png)
+
+### Vendor Risk Register
+![Vendor Risk Register](evidence/vendor-risk-register.png)
+
+### Vendor Gap Assessment
+![Vendor Gap Assessment](evidence/vendor-gap-assessment.png)
 ## Skills Demonstrated
 
 - Governance, Risk, and Compliance
