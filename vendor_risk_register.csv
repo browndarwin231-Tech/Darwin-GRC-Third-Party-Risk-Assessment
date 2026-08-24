@@ -1,0 +1,11 @@
+Risk ID,Risk Description,Security Domain,Likelihood,Impact,Risk Score,Risk Rating,Existing Control,Control Gap,Recommended Remediation
+VR-001,Administrator account compromise due to missing MFA,Identity and Access Management,3,5,15,High,Privileged accounts exist,MFA is not enforced for all administrators,Require MFA for all administrator accounts
+VR-002,Delayed response during a security incident,Incident Response,3,5,15,High,Incident response plan exists,Plan is not tested regularly,Conduct annual tabletop exercises
+VR-003,Subcontractor security compromise,Third-Party Risk Management,3,4,12,High,Limited vendor oversight,Subcontractors are not formally assessed,Implement subcontractor risk assessments and annual reviews
+VR-004,Critical vulnerability remains unresolved,Vulnerability Management,3,4,12,High,Vulnerability scans are performed,Remediation timelines are inconsistent,Define severity-based remediation SLAs
+VR-005,Backup recovery failure,Backup and Recovery,2,5,10,Medium,Backups are performed,Restore testing is inconsistent,Conduct quarterly restoration tests
+VR-006,Security events are unavailable for investigation,Logging and Monitoring,2,4,8,Medium,Centralized logging is enabled,Log retention is shorter than recommended,Increase log retention to at least 12 months
+VR-007,Security awareness gaps increase phishing risk,Security Awareness,3,4,12,High,Employee training exists,Training completion is not consistently tracked,Implement centralized training tracking and recurring phishing simulations
+VR-008,Undetected infrastructure weakness,Penetration Testing,2,4,8,Medium,Some penetration testing occurs,Testing is inconsistent,Perform annual independent penetration testing
+VR-009,Business disruption due to untested recovery procedures,Business Continuity,2,5,10,Medium,BCP and DR plans exist,Exercises are not performed consistently,Conduct annual BCP and disaster recovery exercises
+VR-010,Unauthorized or unnecessary user access,Identity and Access Management,2,4,8,Medium,Recurring access reviews are performed,Review evidence may not always be retained,Document access review approvals and remediation actions
